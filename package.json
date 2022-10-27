@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc build --output public",
+    "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only --exit-child --watch src src/server.ts"
   },
   "keywords": [],
